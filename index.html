@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="fantasy">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!--===================== DAISY UI LINK  =======================-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+
+  <header>
+    <!-- navbar section start  -->
+    <div class="navbar bg-base-100 shadow-2xl lg:px-16">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      </div>
+      <div class="flex-none gap-2">
+        <div class="form-control">
+          <input type="text" placeholder="Search" class="input input-bordered" />
+        </div>
+        <div class="dropdown dropdown-end">
+          <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <img src="./mLogo-removebg-preview.png" />
+            </div>
+          </label>
+          <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+            <li>
+              <a class="justify-between">
+                Profile
+                <span class="badge">New</span>
+              </a>
+            </li>
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--======================= Caousel Start  ===================-->
+
+    <div class="carousel w-full custom-size">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./images/judges-gavel-scale-justice-black-table.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="./images/lady-justice-law-library-concept.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="./images/law-justice-concept-dark-background.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== Carousel End  ===========================-->
+
+
+    <section class="my-12  lg:px-8 px-4 flex flex-col md:flex-row lg:flex-row">
+      <div class="products md:w-[70%] w-full grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-52" src="./images/judges-gavel-scale-justice-black-table.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Coffee Js</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Price: $<span>110</span> </p>
+            <p>Quantity: <span>90</span> </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-52" src="./images/lady-justice-law-library-concept.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Heart Js</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Price: $<span>110</span> </p>
+            <p>Quantity: <span>90</span> </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-52" src="./images/law-justice-concept-dark-background.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Panda Js</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Price: $<span>110</span> </p>
+            <p>Quantity: <span>90</span> </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-52" src="./images/judges-gavel-scale-justice-black-table.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Coffee Js</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Price: $<span>110</span> </p>
+            <p>Quantity: <span>90</span> </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-52" src="./images/lady-justice-law-library-concept.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Heart Js</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+
+            <input type="text" placeholder="Price" class="input input-bordered input-sm w-full max-w-xs" />
+
+            <input type="text" placeholder="Quantity" class="input input-bordered input-sm w-full max-w-xs" />
+
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="cart-details md:w-[28%] w-full mx-auto md:mt-0 mt-12">
+        <h1 class="text-3xl text-center font-bold underline">Total Products: 0</h1>
+
+        <div class="overflow-x-auto mt-6">
+          <table class="table w-full">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- row 1 -->
+              <tr>
+                <th>1</th>
+                <td>Js</td>
+                <td>120</td>
+                <td>400</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+      </div>
+    </section>
+  </main>
+
+
+
+
+</body>
+
+</html>
